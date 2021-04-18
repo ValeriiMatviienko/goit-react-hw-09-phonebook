@@ -1,0 +1,15 @@
+.section {
+  width: 750px;
+  margin: auto;
+  padding: 20px;
+}
+
+.heading {
+  font-family: Cyber;
+  text-align: center;
+  font-size: 40px;
+  padding: 0;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  color: #fff;
+}

@@ -1,0 +1,25 @@
+.wrapper {
+  text-align: center;
+  /* width: 450px; */
+  margin-bottom: 10px;
+}
+.label {
+  font-family: Cyber;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  padding: 8px;
+}
+
+.input {
+  margin: auto;
+  font-family: Cyber;
+  text-transform: uppercase;
+  display: block;
+  padding: 5px;
+  margin-top: 12px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #aaa;
+}
