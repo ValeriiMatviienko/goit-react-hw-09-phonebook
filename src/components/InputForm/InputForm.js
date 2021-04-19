@@ -29,6 +29,16 @@ export default function InputForm() {
       const sameContact = contacts.find(
         item => item.name.toLowerCase() === name.toLowerCase(),
       );
+      const validNumber = number => {
+        // eslint-disable-next-line
+        return !/^\d[\d\(\)\ -]{4,14}\d$/.test(number);
+      };
+
+      if (validNumber(number)) {
+        alert('Enter the correct number phone!');
+        return;
+      }
+
       if (sameContact) {
         alert(`${name} Already exists`);
         reset();
