@@ -9,13 +9,13 @@ import './index.css';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Router>
-      <Provider store={store.store}>
-        <PersistGate loading={null} persistor={store.persistor}>
+    <Provider store={store.store}>
+      <PersistGate loading={null} persistor={store.persistor}>
+        <Router>
           <App />
-        </PersistGate>
-      </Provider>
-    </Router>
+        </Router>
+      </PersistGate>
+    </Provider>
   </React.StrictMode>,
   document.getElementById('root'),
 );
